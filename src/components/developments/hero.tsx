@@ -1,4 +1,8 @@
-export const Hero = () => {
+interface heroProps{
+    title : string,
+}
+
+export const Hero: React.FC<heroProps> = ({title}) => {
   return (
     <section
       className="relative w-full h-[300px] flex flex-col justify-center bg-cover bg-center text-center px-4 mb-28"
@@ -9,7 +13,7 @@ export const Hero = () => {
     >
       <div className="bg-[#38180c] py-8 px-14 -bottom-14 absolute">
         <h1 className="text-white text-2xl md:text-3xl font-bold">
-          DEVELOPMENTS AVAILABLE
+          {title}
         </h1>
       </div>
     </section>

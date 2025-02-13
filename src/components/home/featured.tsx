@@ -1,7 +1,7 @@
 import SubFeatured from "../general/subFeatured";
 
 
-export const FeaturedDevelopment = () => {
+export const Featured = () => {
   return (
     <section className="pb-12 px-4 text-center flex flex-col">
       <h2 className="text-lg text-[#38180c] md:text-2xl font-normal">
@@ -14,7 +14,6 @@ export const FeaturedDevelopment = () => {
         </span>
       </p>
       <SubFeatured />
-      
     </section>
   );
 };

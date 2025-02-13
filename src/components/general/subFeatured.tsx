@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function SubFeatured() {
     const navigate = useNavigate();
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mx-2">
         <div className="mt-8 border-4 border-black overflow-hidden max-w-4xl mx-auto p-1">
         <div className="relative">
           <img
