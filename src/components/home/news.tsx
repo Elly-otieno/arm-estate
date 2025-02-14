@@ -36,7 +36,7 @@ export const News: React.FC<newsProps> = ({ isImage }) => {
   ];
 
   return (
-    <section className="py-12 px-4 flex flex-col w-full  max-w-4xl">
+    <section className="py-12 px-4 flex flex-col w-full  max-w-4xl" data-aos="fade-right">
       <h2 className="text-lg md:text-2xl  font-semibold text-[#38180c]">
         NEWS & INSIGHTS
       </h2>

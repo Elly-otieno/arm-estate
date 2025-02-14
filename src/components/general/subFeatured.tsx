@@ -5,7 +5,7 @@ import { Building2, Tags, Landmark, ChartNoAxesCombined } from "lucide-react";
 function SubFeatured() {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col mx-2">
+    <div className="flex flex-col mx-2" data-aos="fade-up">
       <div className="mt-8 border-4 border-black overflow-hidden max-w-4xl mx-auto p-1">
         <div className="relative">
           <img
@@ -23,7 +23,7 @@ function SubFeatured() {
           </div>
         </div>
 
-        <div className="">
+        <div className="" data-aos="fade-right">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 text-center">
             <div className="flex flex-col items-center gap-2 text-[#38180c]">
               <Building2 size={34}/>

@@ -30,6 +30,7 @@ export const Hero: React.FC<heroProps> = ({
         backgroundImage:
           "url('https://images.unsplash.com/photo-1537726235470-8504e3beef77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
       }}
+      // data-aos="zoom-in"
     >
       <div className={`bg-[#38180c] py-8 px-14 absolute ${positionStyles[position]}`}>
         <h1 className="text-white text-2xl md:text-3xl font-bold">{title}</h1>

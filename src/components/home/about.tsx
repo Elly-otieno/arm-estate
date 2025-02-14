@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export const About = () => {
     const navigate = useNavigate();
     return (
-      <section className="py-12 px-4 flex flex-col md:flex-row items-center max-w-2xl mx-auto gap-8">
+      <section className="py-12 px-4 flex flex-col md:flex-row items-center max-w-2xl mx-auto gap-8" data-aos="fade-up">
         <div className="w-full md:w-1/2 triangle-top">
           <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Company Building" className="w-full h-[500px]" />
         </div>

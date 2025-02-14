@@ -84,7 +84,7 @@ import { Link } from "@heroui/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12 px-4 text-center md:text-left">
+    <footer className="bg-white py-12 px-4 text-center md:text-left" data-aos="fade-up">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
         <div className="text-center md:text-left">
           <h2 className="text-2xl md:text-4xl text-center font-bold text-[#38180c]">ARM <span className="font-normal text-center block">ESTATES</span></h2>

@@ -30,3 +30,6 @@ npm install
 ```bash
 npm run dev
 ```
+
+### Deployment
+- Check out live app on: 

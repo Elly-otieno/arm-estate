@@ -7,7 +7,7 @@ import { About } from "@/components/home/about";
 export default function Home() {
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center justify-center gap-4 pb-8 md:pb-10">
+      <section className="flex flex-col items-center justify-center gap-4 pb-8 md:pb-10" data-aos="fade-up">
         <div className="h-screen w-full">
         <HomeSection />
         </div>
