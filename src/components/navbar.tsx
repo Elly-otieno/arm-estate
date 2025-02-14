@@ -1,7 +1,4 @@
-// import { Button } from "@heroui/button";
-// import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
-// import { Input } from "@heroui/input";
 import {
   Navbar as HeroUINavbar,
   NavbarBrand,
@@ -15,8 +12,6 @@ import { link as linkStyles } from "@heroui/theme";
 import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
-// import { ThemeSwitch } from "@/components/theme-switch";
-// import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
  
@@ -57,13 +52,11 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </div>
-          {/* <ThemeSwitch /> */}
         </NavbarItem>
        
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        {/* <ThemeSwitch /> */}
         <NavbarMenuToggle />
       </NavbarContent>
 

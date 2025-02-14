@@ -87,28 +87,28 @@ const Footer = () => {
     <footer className="bg-white py-12 px-4 text-center md:text-left">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
         <div className="text-center md:text-left">
-          <h2 className="text-2xl font-bold text-[#38180c]">ARM <span className="font-medium">ESTATES</span></h2>
+          <h2 className="text-2xl md:text-4xl text-center font-bold text-[#38180c]">ARM <span className="font-normal text-center block">ESTATES</span></h2>
         </div>
         <div className="text-[#38180c] text-sm">
-          <h3 className="font-semibold uppercase">Contact Us</h3>
+          <h3 className="font-semibold uppercase md:mb-4">Contact Us</h3>
           <p>A.R.M & BROTHERS ESTATES LIMITED</p>
           <p>FCB MIHRA, MEZZANINE FLOOR, UNIT 1, LENANA ROAD</p>
-          <p>A: P.O. BOX 7122-00622, JUJA</p>
-          <p>E: <Link href="mailto:info@armestates.com" className="text-[#38180c]">INFO@ARMESTATES.COM</Link></p>
-          <p>P: <Link href="tel:+254703555444" className="text-[#38180c]">+254 703 555 444</Link></p>
+          <p><span className="text-black font-bold">A:</span>  P.O. BOX 7122-00622, JUJA</p>
+          <p><span className="text-black font-bold">E:</span>  <Link href="mailto:info@armestates.com" className="text-[#38180c]">INFO@ARMESTATES.COM</Link></p>
+          <p><span className="text-black font-bold">P:</span>  <Link href="tel:+254703555444" className="text-[#38180c]">+254 703 555 444</Link></p>
         </div>
         <div className="text-[#38180c] text-sm">
-          <h3 className="font-semibold uppercase">Quick Access</h3>
+          <h3 className="font-semibold uppercase md:mb-4">Quick Access</h3>
           <ul className="space-y-2 text-[#38180c]">
             <li><Link href="/" className="text-[#38180c]">Home</Link></li>
-            <li><Link href="/about" className="text-[#38180c]">About Us</Link></li>
+            <li><Link href="/story" className="text-[#38180c]">About Us</Link></li>
             <li><Link href="/developments" className="text-[#38180c]">Developments</Link></li>
-            <li><Link href="/insights" className="text-[#38180c]">Buyer Insights</Link></li>
-            <li><Link href="/contact" className="text-[#38180c]">Contact Us</Link></li>
+            <li><Link href="/buyer-insights" className="text-[#38180c]">Buyer Insights</Link></li>
+            <li><Link href="/lets-talk" className="text-[#38180c]">Contact Us</Link></li>
           </ul>
         </div>
       </div>
-      <div className="mt-8">
+      <div className="mt-8 max-w-6xl w-full mx-auto">
         <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Buildings" className="w-full h-80 object-cover" />
       </div>
       <div className="text-center text-[#38180c] text-sm mt-4">

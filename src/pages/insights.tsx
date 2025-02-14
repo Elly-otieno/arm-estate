@@ -7,7 +7,7 @@ export default function Insights() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 pb-8 md:pb-10">
       <div className="w-full">
-          <Hero title={'BUYER INSIGHTS'}/>
+          <Hero title={'BUYER INSIGHTS'} isButton={false}/>
         </div>
         <News isImage={true}/>
         <div className="border-1 border-gray-200 w-full mt-20"></div>

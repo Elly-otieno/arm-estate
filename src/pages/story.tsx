@@ -5,11 +5,12 @@ import { ThankYou } from "@/components/story/thanks";
 import DefaultLayout from "@/layouts/default";
 
 export default function Story() {
+  const subtitle = 'Our business module is built around the vision of providing high-caliber, opulent residences that are nevertheless reasonably priced'
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 pb-8 md:pb-10">
         <div className="w-full">
-          <Hero title={"DEVELOPMENTS AVAILABLE"} />
+          <Hero title={"WHO WE ARE"} subtitle={subtitle} isButton={true} label="DISCOVER DEVELOPMENTS" position="lower"/>
         </div>
         <Developer />
         <Mission />

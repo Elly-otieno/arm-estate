@@ -7,7 +7,7 @@ export default function Developments() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 pb-8 md:pb-10">
         <div className="w-full">
-          <Hero title={'DEVELOPMENTS AVAILABLE'}/>
+          <Hero title={'DEVELOPMENTS AVAILABLE'} isButton={false}/>
         </div>
         <SubFeatured />
         <div className="border-1 border-gray-200 w-full mt-20"></div>
